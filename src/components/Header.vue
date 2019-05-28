@@ -21,6 +21,8 @@
         </div>
         <div class="user_img">Img</div>
         <div class="login_logo">Login</div>
+        <button class="btn1">Primary</button>
+        <button class="btn2">Secondary</button>
       </div>
     </div>
   </div>
