@@ -1,9 +1,10 @@
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: auto;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
+  border: 2px solid black;
 }
 @media (min-width: 576px) {
   .container {
