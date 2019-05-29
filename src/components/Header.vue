@@ -37,16 +37,10 @@ export default {
   background-repeat: no-repeat;
   width: 134px;
   height: 24px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 31px;
-  margin-right: 52px;
+  margin: 20px 52px 20px 31px ;
 }
   .header__link {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+    margin: 24px 15px 24px 15px;
 }
 .user-data__name {
   text-align: end;
