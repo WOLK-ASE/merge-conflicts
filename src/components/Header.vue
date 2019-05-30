@@ -4,7 +4,9 @@
       <div class="flex">
         <div class="logo"></div>
         <nav class="flex">
-          <router-link class="header__link link1" to="/about">About me</router-link>
+          <router-link class="header__link link1" to="/about"
+            >About me</router-link
+          >
           <router-link class="header__link link1" to="/"
             >Relationships</router-link
           >
@@ -37,10 +39,10 @@ export default {
   background-repeat: no-repeat;
   width: 134px;
   height: 24px;
-  margin: 20px 52px 20px 31px ;
+  margin: 20px 52px 20px 31px;
 }
-  .header__link {
-    margin: 24px 15px 24px 15px;
+.header__link {
+  margin: 24px 15px 24px 15px;
 }
 .user-data__name {
   text-align: end;
@@ -53,7 +55,7 @@ export default {
   font-size: 12px;
 }
 .user_img {
-background-image: url("../assets/imgs/user-superstar-2x.jpg");
+  background-image: url("../assets/imgs/user-superstar-2x.jpg");
   background-size: cover;
   width: 40px;
   height: 40px;
