@@ -27,5 +27,13 @@ button {
   &:hover {
     background: rgba(239,108,0,.2);
   }
-
+}
+.btn-text {
+  padding: 0;
+  padding-top: 20px;
+  font-size: 22px;
+  color: $color-primary;
+  &:hover {
+    color: #fc831f;
+  }
 }

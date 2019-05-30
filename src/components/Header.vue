@@ -34,6 +34,14 @@ export default {
 </script>
 
 <style>
+.header {
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
 .logo {
   background-image: url("../assets/logo/logo.svg");
   background-repeat: no-repeat;
