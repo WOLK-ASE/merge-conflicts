@@ -1,5 +1,5 @@
 <template>
-  <div class="section1">
+  <div class="banner">
     <div class="container">
       <div class="banner-content">
         <div class="banner-content__title h1">
@@ -19,18 +19,19 @@
 
 <script>
 export default {
-  name: "section1"
+  name: "banner"
 };
 </script>
 
 <style>
-.section1 {
+.banner {
   background-image: url("../assets/imgs/bg-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 60px;
 }
 .banner-content {
   padding: 139px 0 158px 31px;
