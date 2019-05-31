@@ -20,8 +20,8 @@
           <button class="btn-text">Sign Up</button>
         </div>
       </div>
-      </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -49,5 +49,4 @@ export default {
   width: 613px;
   height: 148px;
 }
-
 </style>

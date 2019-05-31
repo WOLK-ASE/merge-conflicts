@@ -23,7 +23,7 @@ export default {
     banner,
     acquaintance,
     relationships,
-    requirements,
+    requirements
   }
 };
 </script>
