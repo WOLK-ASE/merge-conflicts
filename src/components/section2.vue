@@ -8,7 +8,7 @@
           <div class="section2-data__title h3">
             I am cool frontend developer
           </div>
-          <div class="section2-data__text">
+          <p class="section2-data__text medium">
             When real users have a slow experience on mobile, they're much less
             likely to find what they are looking for or purchase from you in the
             future. For many sites this equates to a huge missed opportunity,
@@ -16,8 +16,41 @@
             page takes over 3 second to load. <br /><br />
             Last week, Google search and Ads teams announced two new speed
             initiatives to help improve user-experience on web.
-          </div>
+          </p>
           <button class="btn-text">Sign Up</button>
+        </div>
+      </div>
+      <div class="relations">
+        <div class="section2-title2 h2">
+          About my relationships with<br />web-development
+        </div>
+        <div class="f-j-c section2-data2">
+          <div class="section2-data2__html">
+            <div class="html-img"></div>
+            <div class="h3">I'm in love with HTML</div>
+            <p class="medium">
+              Hypertext Markup Language (HTML) is the<br /> standard markup language
+              for creating<br /> web pages and web applications.
+            </p>
+          </div>
+          <div class="section2-data2__css">
+            <div class="css-img"></div>
+            <div class="h3">CSS is my best friend</div>
+            <p class="medium">
+              Cascading Style Sheets (CSS)<br /> is a style sheet language used for<br />
+              describing the presentation of a<br /> document written in a markup<br />
+              language like HTML.
+            </p>
+          </div>
+          <div class="section2-data2__js">
+            <div class="js-img"></div>
+            <div class="h3">JavaScript is my passion</div>
+            <p class="medium">
+              Java-Script is a high-level, interpreted<br /> programming language.It
+              is a language<br /> which is also characterized as dynamic,<br /> weakly
+              typed, prototype-based and<br /> multi-paradigm.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -48,5 +81,35 @@ export default {
 .section2-data__text {
   width: 613px;
   height: 148px;
+}
+.relations {
+  padding-top: 129px;
+}
+.section2-title2 {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 51px;
+}
+.section2-data2__css {
+  margin: 0 73px 0 40px;
+
+}
+.html-img {
+  background-image: url("../assets/imgs/html.svg");
+  width: 98px;
+  height: 111px;
+  margin-bottom: 28px;
+}
+.css-img {
+  background-image: url("../assets/imgs/css.svg");
+  width: 98px;
+  height: 111px;
+  margin-bottom: 28px;
+}
+.js-img {
+  background-image: url("../assets/imgs/javascript.svg");
+  width: 98px;
+  height: 111px;
+  margin-bottom: 28px;
 }
 </style>
