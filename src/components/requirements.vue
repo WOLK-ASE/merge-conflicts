@@ -4,7 +4,7 @@
       <div class="h2 requirements-title">
         General requirements for the test task
       </div>
-      <div class="f-j-c requirements-data">
+      <div class="flex requirements-data">
         <p class="medium requirements-data__text">
           Users want to find answers to their questions quickly and data<br />
           shows that people really care about how quickly their pages load.<br />
@@ -43,7 +43,7 @@ export default {
 .requirements-title {
   color: white;
   text-align: center;
-  padding: 130px 0 25px 0;
+  padding: 130px 110px 25px 0;
 }
 .requirements-data {
   padding-bottom: 139px;

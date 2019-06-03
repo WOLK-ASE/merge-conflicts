@@ -47,7 +47,7 @@ export default {
   background-repeat: no-repeat;
   width: 134px;
   height: 24px;
-  margin: 20px 52px 20px 31px;
+  margin: 20px 52px 20px 0;
 }
 .header__link {
   margin: 24px 15px 24px 15px;

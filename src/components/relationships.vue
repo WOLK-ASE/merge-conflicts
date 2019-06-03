@@ -1,11 +1,11 @@
 <template>
   <div class="relationsips">
-    <div class="container"></div>
-    <div class="relationsips-title2 h2">
+      <div class="container">
+    <div class="relationsips-title h2">
       About my relationships with<br />web-development
     </div>
-    <div class="f-j-c relationsips-data2">
-      <div class="relationsips-data2__html">
+    <div class="flex relationsips-data">
+      <div class="relationsips-data__html">
         <div class="html-img"></div>
         <div class="h3">I'm in love with HTML</div>
         <p class="medium">
@@ -14,7 +14,7 @@
           web pages and web applications.
         </p>
       </div>
-      <div class="relationsips-data2__css">
+      <div class="relationsips-data__css">
         <div class="css-img"></div>
         <div class="h3">CSS is my best friend</div>
         <p class="medium">
@@ -25,7 +25,7 @@
           language like HTML.
         </p>
       </div>
-      <div class="relationsips-data2__js">
+      <div class="relationsips-data__js">
         <div class="js-img"></div>
         <div class="h3">JavaScript is my passion</div>
         <p class="medium">
@@ -37,6 +37,7 @@
         </p>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -50,12 +51,14 @@ export default {
 .relationsips {
   padding-top: 129px;
 }
-.relationsips-title2 {
-  margin: auto;
+.relationsips-title {
   text-align: center;
-  margin-bottom: 51px;
+  margin: -15px 115px 51px 0;
 }
-.relationsips-data2__css {
+.relationsips-data {
+  margin: -10px 0 -20px 0;
+}
+.relationsips-data__css {
   margin: 0 73px 140px 40px;
 }
 .html-img {

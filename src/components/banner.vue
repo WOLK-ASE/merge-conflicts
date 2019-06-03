@@ -34,7 +34,7 @@ export default {
   padding-top: 60px;
 }
 .banner-content {
-  padding: 139px 0 158px 31px;
+  padding: 139px 0 158px 0;
 }
 .banner-content__title {
   width: 450px;

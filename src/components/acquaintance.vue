@@ -2,7 +2,7 @@
   <div class="acquaintance">
     <div class="container">
       <div class="acquaintance-title h2">Let's get acquainted</div>
-      <div class="f-j-c">
+      <div class="flex">
         <div class="acquaintance-img"></div>
         <div class="acquaintance-data">
           <div class="acquaintance-data__title h3">
@@ -32,9 +32,9 @@ export default {
 
 <style>
 .acquaintance-title {
-  text-align: center;
   padding-top: 139px;
   padding-bottom: 25px;
+  margin-left: 270px;
 }
 .acquaintance-img {
   background-image: url("../assets/imgs/man-mobile.svg");
@@ -48,5 +48,8 @@ export default {
 .acquaintance-data__text {
   width: 613px;
   height: 148px;
+}
+.acquaintance-data button {
+  margin-top: -20px;
 }
 </style>
