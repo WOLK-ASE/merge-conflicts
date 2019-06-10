@@ -2,9 +2,9 @@
   <div class="header">
     <div class="container">
       <div class="flex">
-        <div class="logo"></div>
+        <div class="header-logo"></div>
         <nav class="flex">
-          <router-link class="header__link link1" to="/about"
+          <router-link class="header__link link1" to="/acquaintance"
             >About me</router-link
           >
           <router-link class="header__link link1" to="/"
@@ -42,7 +42,7 @@ export default {
   margin-right: auto;
   margin-left: auto;
 }
-.logo {
+.header-logo {
   background-image: url("../assets/logo/logo.svg");
   background-repeat: no-repeat;
   width: 134px;

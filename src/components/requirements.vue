@@ -5,7 +5,7 @@
         General requirements for the test task
       </div>
       <div class="flex requirements-data">
-        <p class="medium requirements-data__text">
+        <p class="m requirements-data__text">
           Users want to find answers to their questions quickly and data<br />
           shows that people really care about how quickly their pages load.<br />
           The Search team announced speed would be a ranking signal for<br />
