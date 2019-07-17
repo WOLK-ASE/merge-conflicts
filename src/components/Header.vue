@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="container">
-      <div class="flex">
+      <div class="flex ">
         <div class="header-logo"></div>
         <nav class="flex">
           <router-link class="header__link link1" to="/acquaintance"
@@ -16,12 +16,14 @@
           <router-link class="header__link link1" to="/">Users</router-link>
           <router-link class="header__link link1" to="/">Sign Up</router-link>
         </nav>
-        <div class="user-data">
-          <div class="user-data__name">Superstar</div>
-          <div class="user-data__mail">Superstar@gmail.com</div>
+        <div class="user flex">
+          <div class="user-data">
+            <div class="user-data__name">Superstar</div>
+            <div class="user-data__mail">Superstar@gmail.com</div>
+          </div>
+          <div class="user_img"></div>
+          <div class="sign-out"></div>
         </div>
-        <div class="user_img"></div>
-        <div class="sign-out"></div>
       </div>
     </div>
   </div>
@@ -47,7 +49,7 @@ export default {
   background-repeat: no-repeat;
   width: 134px;
   height: 24px;
-  margin: 20px 52px 20px 0;
+  margin: 20px 52px 20px 30px;
 }
 .header__link {
   margin: 24px 15px 24px 15px;
@@ -75,6 +77,6 @@ export default {
   width: 24px;
   height: 20px;
   margin-top: 22px;
-  margin-right: 32px;
+  margin-right: 30px;
 }
 </style>

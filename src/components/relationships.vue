@@ -1,13 +1,13 @@
 <template>
   <div class="relationsips">
     <div class="container">
-      <div class="relationsips-title h2">
+      <h2 class="relationsips-title">
         About my relationships with<br />web-development
-      </div>
+      </h2>
       <div class="flex relationsips-data">
         <div class="relationsips-data__html">
           <div class="html-img"></div>
-          <div class="h3">I'm in love with HTML</div>
+          <h3>I'm in love with HTML</h3>
           <p class="m">
             Hypertext Markup Language (HTML) is the<br />
             standard markup language for creating<br />
@@ -16,7 +16,7 @@
         </div>
         <div class="relationsips-data__css">
           <div class="css-img"></div>
-          <div class="h3">CSS is my best friend</div>
+          <h3>CSS is my best friend</h3>
           <p class="m">
             Cascading Style Sheets (CSS)<br />
             is a style sheet language used for<br />
@@ -27,7 +27,7 @@
         </div>
         <div class="relationsips-data__js">
           <div class="js-img"></div>
-          <div class="h3">JavaScript is my passion</div>
+          <h3>JavaScript is my passion</h3>
           <p class="m">
             Java-Script is a high-level, interpreted<br />
             programming language.It is a language<br />

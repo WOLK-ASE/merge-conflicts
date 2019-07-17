@@ -5,9 +5,9 @@
       <div class="flex">
         <div class="acquaintance-img"></div>
         <div class="acquaintance-data">
-          <div class="acquaintance-data__title h3">
+          <h3 class="acquaintance-data__title">
             I am cool frontend developer
-          </div>
+          </h3>
           <p class="acquaintance-data__text m">
             When real users have a slow experience on mobile, they're much less
             likely to find what they are looking for or purchase from you in the
