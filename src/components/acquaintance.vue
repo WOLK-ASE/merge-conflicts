@@ -13,9 +13,9 @@
             likely to find what they are looking for or purchase from you in the
             future. For many sites this equates to a huge missed opportunity,
             especially when more than half of visits are abandoned if a mobile
-            page takes over 3 second to load. <br /><br />
+            page takes over 3 seconds to load. <br /><br />
             Last week, Google search and Ads teams announced two new speed
-            initiatives to help improve user-experience on web.
+            initiatives to help improve user-experience on the web.
           </p>
           <button class="btn-text">Sign Up</button>
         </div>
@@ -32,24 +32,30 @@ export default {
 
 <style>
 .acquaintance-title {
-  padding-top: 139px;
-  padding-bottom: 25px;
-  margin-left: 270px;
+  padding-top: 135px;
+  text-align: center;
 }
 .acquaintance-img {
   background-image: url("../assets/imgs/man-mobile.svg");
   width: 289px;
   height: 285px;
+  margin: 20px 0 0 30px;
+
 }
 .acquaintance-data {
   padding-left: 30px;
   padding-top: 15px;
 }
+.acquaintance-data__title {
+  margin-bottom: -10px;
+}
 .acquaintance-data__text {
-  width: 613px;
+  width: 612px;
   height: 148px;
+  font-size: 16px;
+  line-height: 22px;
 }
 .acquaintance-data button {
-  margin-top: -20px;
+  margin-top: -10px;
 }
 </style>

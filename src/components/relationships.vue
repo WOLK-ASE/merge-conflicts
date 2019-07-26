@@ -4,7 +4,7 @@
       <h2 class="relationsips-title">
         About my relationships with<br />web-development
       </h2>
-      <div class="flex relationsips-data">
+      <div class="f-s-b relationsips-data">
         <div class="relationsips-data__html">
           <div class="html-img"></div>
           <h3>I'm in love with HTML</h3>
@@ -48,18 +48,18 @@ export default {
 </script>
 
 <style>
-.relationsips {
-  padding-top: 129px;
-}
+
 .relationsips-title {
   text-align: center;
-  margin: -15px 115px 51px 0;
+  margin-top: 0px;
+  padding-top: 129px;
 }
 .relationsips-data {
-  margin: -10px 0 -20px 0;
+  margin: 10px 30px 0 30px;
+  padding-bottom: 120px;
 }
 .relationsips-data__css {
-  margin: 0 73px 140px 40px;
+  margin: 0 73px 0px 40px;
 }
 .html-img {
   background-image: url("../assets/imgs/html.svg");
@@ -79,4 +79,8 @@ export default {
   height: 111px;
   margin-bottom: 28px;
 }
+  .relationsips-data P {
+    margin-top: -20px;
+    line-height: 22px;
+  }
 </style>
