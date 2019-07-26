@@ -74,7 +74,9 @@
           </div>
         </div>
       </div>
-      <button class="btn2">Show More</button>
+      <div class="f-j-c">
+        <button class="btn2">Show More</button>
+      </div>
     </div>
   </div>
 </template>
@@ -86,7 +88,8 @@ export default {
 </script>
 <style>
 .users-title {
-  padding: 150px 110px 30px 0px;
+  padding-top: 150px;
+  padding-bottom: 25px;
   text-align: center;
   line-height: 26px;
 }
@@ -97,6 +100,7 @@ export default {
   height: 70px;
   border-radius: 50%;
 }
+
 .users .name {
   font-size: 22px;
   font-family: "Overpass";
@@ -112,10 +116,10 @@ export default {
   padding: 20px 0 0 10px;
 }
 .users .user {
-  padding: 15px 20px 50px 0px;
+  padding: 15px 20px 50px 30px;
   flex: 0 0 33%;
 }
 .btn2 {
-  margin: 15px 0px 160px 325px;
+  margin: 5px 0px 160px 0;
 }
 </style>

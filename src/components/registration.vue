@@ -8,9 +8,7 @@
           users in the block from the top
         </p>
       </div>
-
-      <!--          <form action="Потом думаю пригодится">-->
-      <div class="flex input-section">
+      <div class="f-s-b input-section">
         <div class="form-group">
           <div class="label">Name</div>
           <input type="text" class="input" placeholder="Your name" />
@@ -33,68 +31,36 @@
           <option value="3">Backend developer</option>
         </select>
       </div>
-      <!--          </form>-->
-      <el-select v-model="value" placeholder="Select your position">
-        <el-option
-                v-for="item in options"
-                :key="item.value"
-                :label="item.label"
-                :value="item.value">
-        </el-option>
-      </el-select>
     </div>
   </div>
 </template>
 
 <script>
-  import Vue from "vue";
-  import { Select, Option } from "element-ui";
-  [Select, Option].forEach(i => Vue.component(i.name, i));
-
 export default {
-  name: "registration",
-  data(){
-    return {
-      options: [{
-        value: 'Option1',
-        label: 'Designer'
-      }, {
-        value: 'Option2',
-        label: 'Frontend developer'
-      }, {
-        value: 'Option3',
-        label: 'Backend developer'
-      }],
-      value: ''
-    }
-  }
+  name: "registration"
 };
-
 </script>
 
 <style>
-  .el-select .el-input {
-    font-size: 23px;
-    padding: 15px 290px 17px 11px;
-    border-radius: 5px;
-    border: none;
-  }
-  .el-select .el-input .el-select__caret {
-    background-image: url("../assets/icons/caret-down.svg");
-    size: 100%;
-    background-repeat: no-repeat;
+/*.el-select .el-input {*/
+/*  font-size: 23px;*/
+/*  padding: 15px 290px 17px 11px;*/
+/*  border-radius: 5px;*/
+/*  border: none;*/
+/*}*/
+/*.el-select .el-input .el-select__caret {*/
+/*  background-image: url("../assets/icons/caret-down.svg");*/
+/*  size: 100%;*/
+/*  background-repeat: no-repeat;*/
 
-  }
+/*}*/
 
 .reg-title {
   text-align: center;
   line-height: 29px;
-  padding: 10px 120px 50px 0px;
+  padding: 5px 0px 45px 0px;
 }
-.input-section {
-  margin: 10px;
 
-}
 .registration .position {
   font-size: 16px;
   padding: 15px 290px 17px 11px;
@@ -106,5 +72,9 @@ export default {
 .caret-down {
   position: relative;
   left: 440px;
+}
+.form-group:nth-child(odd) {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 </style>

@@ -48,7 +48,6 @@ export default {
 </script>
 
 <style>
-
 .relationsips-title {
   text-align: center;
   margin-top: 0px;
@@ -79,8 +78,8 @@ export default {
   height: 111px;
   margin-bottom: 28px;
 }
-  .relationsips-data P {
-    margin-top: -20px;
-    line-height: 22px;
-  }
+.relationsips-data p {
+  margin-top: -20px;
+  line-height: 22px;
+}
 </style>

@@ -40,7 +40,6 @@ export default {
   width: 289px;
   height: 285px;
   margin: 20px 0 0 30px;
-
 }
 .acquaintance-data {
   padding-left: 30px;

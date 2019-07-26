@@ -11,7 +11,8 @@
           The Search team announced speed would be a ranking signal for<br />
           desktop searches in 2010 and as of this month(July 2018), page<br />
           speed will be a ranking factor for mobile searches too.<br />
-          <br />If you're a developer working on a site, now is a good time to<br />
+          <br />If you're a developer working on a site, now is a good time
+          to<br />
           evaluate your performance using our speed tools. Think about how<br />
           performance affects the user experience of your pages and consider<br />
           measuring a variety of real-world user-centric performance metrics.<br /><br />
