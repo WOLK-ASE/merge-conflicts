@@ -35,7 +35,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .requirements {
   background-image: url("../assets/imgs/bg-2.jpg");
   background-repeat: no-repeat;

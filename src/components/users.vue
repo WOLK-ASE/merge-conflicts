@@ -86,7 +86,7 @@ export default {
   name: "users"
 };
 </script>
-<style>
+<style lang="scss">
 .users-title {
   padding-top: 150px;
   padding-bottom: 25px;

@@ -6,8 +6,6 @@
     <relationships></relationships>
     <requirements></requirements>
     <users></users>
-    <registration></registration>
-    <Footer></Footer>
   </div>
 </template>
 
@@ -19,8 +17,6 @@ import acquaintance from "@/components/acquaintance.vue";
 import relationships from "@/components/relationships.vue";
 import requirements from "@/components/requirements.vue";
 import users from "@/components/users.vue";
-import registration from "@/components/registration.vue";
-import Footer from "@/components/footer.vue";
 
 export default {
   name: "home",
@@ -30,9 +26,7 @@ export default {
     acquaintance,
     relationships,
     requirements,
-    users,
-    registration,
-    Footer
+    users
   }
 };
 </script>

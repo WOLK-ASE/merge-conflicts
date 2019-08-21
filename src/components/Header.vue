@@ -4,9 +4,7 @@
       <div class="flex ">
         <div class="header-logo"></div>
         <nav class="flex">
-          <router-link class="header__link link1" to="/acquaintance"
-            >About me</router-link
-          >
+          <router-link class="header__link link1" to="/">About me</router-link>
           <router-link class="header__link link1" to="/"
             >Relationships</router-link
           >

@@ -30,7 +30,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .acquaintance-title {
   padding-top: 135px;
   text-align: center;

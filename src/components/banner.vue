@@ -1,4 +1,4 @@
-<template xmlns="http://www.w3.org/1999/html">
+<template>
   <div class="banner">
     <div class="container">
       <div class="banner-content">
@@ -11,17 +11,6 @@
           and respond to every application that meets minimum requirements. We
           look forward to your submission. Good luck!
         </p>
-        <div class="ase">
-          <div class="1">1</div>
-          <div class="1">2</div>
-          <div class="1">3</div>
-          <div class="1">4</div>
-          <div class="1">5</div>
-          <div class="1">6</div>
-          <div class="1">7</div>
-          <div class="1">8</div>
-          <div class="1">9</div>
-        </div>
         <button class="banner-content__btn btn1">Sign Up</button>
       </div>
     </div>
@@ -34,7 +23,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .banner {
   background-image: url("../assets/imgs/bg-1.jpg");
   background-size: cover;
@@ -57,9 +46,5 @@ export default {
   line-height: 26px;
   margin: 31px 0 50px 0;
   width: 430px;
-}
-.ase {
-  display: grid;
-  justify-items: start;
 }
 </style>

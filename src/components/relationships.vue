@@ -47,7 +47,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .relationsips-title {
   text-align: center;
   margin-top: 0px;
